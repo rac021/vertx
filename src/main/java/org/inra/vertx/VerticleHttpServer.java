@@ -11,7 +11,6 @@ import io.vertx.core.Future;
 
 public class VerticleHttpServer extends AbstractVerticle {
  
-
   @Override
   public void start(Future<Void> fut) {
     vertx
