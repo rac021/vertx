@@ -19,7 +19,7 @@ public class HttpServer {
              })
              .listen( 8080, ar -> {
                  if(ar.failed()) {
-                     System.out.println(" Failed : " +ar.cause() );
+                     System.out.println(" Failed : " + ar.cause() ) ;
                  }
                  else {
                      System.out.println(" Server started ") ;
